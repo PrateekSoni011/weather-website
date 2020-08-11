@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>About</title>
+        <link rel="icon" href="/img/logo.png">  
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+
+    <body>
+        <div class="main-content">
+        {{>header}}
+
+        <img class="portrait" src="/img/ps.png"> 
+        {{!-- when we use "/" in fron of the path it refers to the
+        root folder and for current project public is the root folder 
+        as we have specified public in express.static function --}}
+        </div>
+        {{>footer}}
+    </body>
+</html>
